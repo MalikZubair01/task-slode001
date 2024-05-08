@@ -37,7 +37,7 @@ const Carousel = () => {
     borderRadius: "10px",
     boxSizing: "border-box",
   };
-  const imgsize = {
+  const imgsizee = {
     height: "50vh",
     width: "80vw",
   };
@@ -45,13 +45,13 @@ const Carousel = () => {
     <div style={CONTAINER_STYLE}>
       <ReactCardCarousel ref={carouselRef}>
         <div style={CARD_STYLE}>
-          <img src="images/img1.jpg " alt="img1" style={imgsize} />
+          <img src="images/img1.jpg " alt="img1" style={imgsizee} />
         </div>
         <div style={CARD_STYLE}>
-          <img src="images/img2.jpg " alt="img2" style={imgsize} />
+          <img src="images/img2.jpg " alt="img2" style={imgsizee} />
         </div>
         <div style={CARD_STYLE}>
-          <img src="images/img3.jpg " alt="img3" style={imgsize} />
+          <img src="images/img3.jpg " alt="img3" style={imgsizee} />
         </div>
       </ReactCardCarousel>
       <div
